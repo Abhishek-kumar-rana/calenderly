@@ -23,7 +23,7 @@ import { AlertTriangle } from "lucide-react";
     if(!event)  return (
         <div className="bg-red-50 border border-red-200 text-red-800 px-4 py-3 rounded-md flex items-center gap-2 text-sm max-w-md mx-auto mt-6">
           <AlertTriangle className="w-5 h-5" />
-          <span>This event doesn't exist anymore.</span>
+          <span>This event doesn&apos;t exist anymore.</span>
         </div>
       )
 
